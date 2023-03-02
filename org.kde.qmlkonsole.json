@@ -13,8 +13,9 @@
         "--talk-name=org.freedesktop.Flatpak"
     ],
     "separate-locales": false,
-    "sdk-extensions": [ "org.freedesktop.Sdk.Extension.golang" ],
-
+    "sdk-extensions": [
+        "org.freedesktop.Sdk.Extension.golang"
+    ],
     "modules": [
         {
             "name": "host-spawn",
@@ -56,8 +57,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.7.0.tar.xz",
-                    "sha256": "0132a58b150229544a61e17e792c48cfc6daa03a8be9c7acd873a6c30d283df7",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.7.1.tar.xz",
+                    "sha256": "c4e94821e81fcda173e71e9bfd5def66961a276278dc784b9b0c6f7cbcd4a0c8",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
@@ -73,7 +74,9 @@
         {
             "name": "qmltermwidget",
             "buildsystem": "qmake",
-            "make-install-args": [ "INSTALL_ROOT=/app" ],
+            "make-install-args": [
+                "INSTALL_ROOT=/app"
+            ],
             "post-install": [
                 "mkdir -p /app/lib/qml",
                 "ln -s /app/usr/lib/qml/QMLTermWidget /app/lib/qml",
