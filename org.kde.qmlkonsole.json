@@ -104,22 +104,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/23.01.0/qmlkonsole-23.01.0.tar.xz",
-                    "sha256": "0387eb407519391c4a0b4c49db7161e58a089cfdc66925c510951698febc021e",
+                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/qmlkonsole-23.04.0.tar.xz",
+                    "sha256": "2024bda0eb31d01c7897c81a27f870af882d051918d4c2b638f8e5b657e1365a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 326638,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/plasma-mobile/$version/qmlkonsole-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "0001-Use-host-spawn.patch"
-                },
-                {
-                    "type": "patch",
-                    "path": "appdata.patch"
                 }
             ]
         }
