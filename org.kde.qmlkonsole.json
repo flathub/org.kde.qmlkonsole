@@ -110,7 +110,7 @@
                         "type": "anitya",
                         "project-id": 326638,
                         "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/plasma-mobile/$version/qmlkonsole-$version.tar.xz"
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/qmlkonsole-$version.tar.xz"
                     }
                 }
             ]
