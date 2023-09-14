@@ -104,8 +104,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.0/src/qmlkonsole-23.08.0.tar.xz",
-                    "sha256": "8f4610520d4dde3083e304d3ba6eb1877755de32bc1e4808a3918f0c166cdf77",
+                    "url": "https://download.kde.org/stable/release-service/23.08.1/src/qmlkonsole-23.08.1.tar.xz",
+                    "sha256": "fe71f14ab97ad5aa15a1f8aea7683d633cc2cfd46ff926ebc29c74b826d135fc",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 326638,
