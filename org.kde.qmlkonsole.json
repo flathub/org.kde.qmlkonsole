@@ -5,11 +5,11 @@
     "sdk": "org.kde.Sdk",
     "command": "qmlkonsole",
     "finish-args": [
+        "--device=dri",
         "--share=ipc",
         "--share=network",
         "--socket=fallback-x11",
         "--socket=wayland",
-        "--device=dri",
         "--talk-name=org.freedesktop.Flatpak"
     ],
     "separate-locales": false,
