@@ -69,7 +69,7 @@
                     "sha256": "a0ae39d11c0c7acd1eb5cca4ea34e440ed59af7c570ff9664d3aaf8d2b528500",
                     "x-checker-data": {
                         "type": "anitya",
-                        "project-id": 326638,
+                        "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/qmlkonsole-$version.tar.xz"
                     }
